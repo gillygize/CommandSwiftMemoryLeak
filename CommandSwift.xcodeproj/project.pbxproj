@@ -19,7 +19,6 @@
 		F4EF87701CF474520077C361 /* Example5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF876F1CF474520077C361 /* Example5ViewController.swift */; };
 		F4EF87721CF479FA0077C361 /* Example6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF87711CF479FA0077C361 /* Example6ViewController.swift */; };
 		F4EF87741CF47F2E0077C361 /* Example7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF87731CF47F2E0077C361 /* Example7ViewController.swift */; };
-		F4EF87761CF487740077C361 /* Example8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF87751CF487740077C361 /* Example8ViewController.swift */; };
 		F4EF877A1CF498690077C361 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF87791CF498690077C361 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		F4EF876F1CF474520077C361 /* Example5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example5ViewController.swift; sourceTree = "<group>"; };
 		F4EF87711CF479FA0077C361 /* Example6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example6ViewController.swift; sourceTree = "<group>"; };
 		F4EF87731CF47F2E0077C361 /* Example7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example7ViewController.swift; sourceTree = "<group>"; };
-		F4EF87751CF487740077C361 /* Example8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example8ViewController.swift; sourceTree = "<group>"; };
 		F4EF87791CF498690077C361 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +80,6 @@
 				F4EF876F1CF474520077C361 /* Example5ViewController.swift */,
 				F4EF87711CF479FA0077C361 /* Example6ViewController.swift */,
 				F4EF87731CF47F2E0077C361 /* Example7ViewController.swift */,
-				F4EF87751CF487740077C361 /* Example8ViewController.swift */,
 				F4EF876D1CF473D10077C361 /* beep.mp3 */,
 				F44D9FAE1CF33709006EADB2 /* Assets.xcassets */,
 				F44D9FB01CF33709006EADB2 /* LaunchScreen.storyboard */,
@@ -169,7 +166,6 @@
 				F4EF87741CF47F2E0077C361 /* Example7ViewController.swift in Sources */,
 				F44D9FAA1CF33709006EADB2 /* ViewController.swift in Sources */,
 				F44D9FBE1CF33F9D006EADB2 /* Example3ViewController.swift in Sources */,
-				F4EF87761CF487740077C361 /* Example8ViewController.swift in Sources */,
 				F44D9FA81CF33709006EADB2 /* AppDelegate.swift in Sources */,
 				F44D9FC01CF3407F006EADB2 /* Example4ViewController.swift in Sources */,
 				F44D9FBA1CF33948006EADB2 /* Example1ViewController.swift in Sources */,

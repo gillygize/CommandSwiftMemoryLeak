@@ -9,23 +9,23 @@
 import UIKit
 
 class Example4Class {
-  var viewController: Example4ViewController?
+//  var viewController: Example4ViewController?
 }
 
 class Example4ViewController: BaseViewController {
-  let example4Class: Example4Class = Example4Class()
+//  let example4Class: Example4Class = Example4Class()
 
   override func viewDidLoad() {
-    example4Class.viewController = self
-    self.performSelector(#selector(Example4ViewController.breakCycle), withObject: nil, afterDelay: 5.0)
+//    example4Class.viewController = self
+//    self.performSelector(#selector(Example4ViewController.breakCycle), withObject: nil, afterDelay: 5.0)
   }
 
   func breakCycle() {
-    example4Class.viewController = nil
+//    example4Class.viewController = nil
   }
 
   deinit {
-    print("Example4ViewController deinit")
+//    print("Example4ViewController deinit")
   }
 }
 

@@ -9,14 +9,14 @@
 import UIKit
 
 class Example3ViewController: BaseViewController {
-  var viewController: Example3ViewController!
+//  var viewController: Example3ViewController!
 
   override func viewDidLoad() {
-    self.viewController = self
+//    self.viewController = self
   }
 
   deinit {
-    print("Example3ViewController deinit")
+//    print("Example3ViewController deinit")
   }
 }
 

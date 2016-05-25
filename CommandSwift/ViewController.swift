@@ -60,8 +60,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         viewController = Example6ViewController()
       case 7:
         viewController = Example7ViewController()
-      case 8:
-        viewController = Example8ViewController()
       default:
         viewController = UIViewController()
     }

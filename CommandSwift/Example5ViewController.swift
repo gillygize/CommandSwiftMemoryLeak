@@ -9,33 +9,33 @@
 import UIKit
 
 class Example5ViewController: BaseViewController {
-  var callback: (()->())?
+//  var callback: (()->())?
 
   override func viewDidLoad() {
-    let button = UIButton(type: .System)
-    button.frame = CGRect(x: 0, y: 0, width: 100, height: 44)
-    button.center = view.center
-    button.setTitle("Say Hello", forState: .Normal)
-    button.addTarget(self,
-      action: #selector(Example5ViewController.buttonPressed(_:)),
-      forControlEvents: .TouchUpInside
-    )
-    view.addSubview(button)
-
-    self.callback = {
-      self.printHello()
-    }
+//    let button = UIButton(type: .System)
+//    button.frame = CGRect(x: 0, y: 0, width: 100, height: 44)
+//    button.center = view.center
+//    button.setTitle("Say Hello", forState: .Normal)
+//    button.addTarget(self,
+//      action: #selector(Example5ViewController.buttonPressed(_:)),
+//      forControlEvents: .TouchUpInside
+//    )
+//    view.addSubview(button)
+//
+//    self.callback = {
+//      self.printHello()
+//    }
   }
 
   func printHello() {
-    print("hello")
+//    print("hello")
   }
 
   func buttonPressed(button: UIButton) {
-    self.callback!()
+//    self.callback!()
   }
 
   deinit {
-    print("Example5ViewController deinit")
+//    print("Example5ViewController deinit")
   }
 }
